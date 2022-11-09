@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+body,
+input,
+textarea{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    padding: 16px 0;
+    background-color:#1f1041;;
+    color: #f1f7f4;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    
+    
+}
+header:hover h1{
+    color:#77ffc0;
+    cursor: pointer;
+    
+    
+}
+
+header nav li{
+    display: inline; 
+    margin-left: 16px;
+    font-size: 18px;
+}
+header nav li a {
+    color:#f1f7f4;
+    text-decoration: none;
+}
+header nav li a:hover{
+    color: #77ffc0;
+}
+.container{
+    max-width: 1280px;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.color-fundo{
+    background-color: azure;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section{
+    padding: 24px 0;
+    color: #182c61;
+    
+
+}
+section h2{
+    margin-bottom: 26px;
+    color: #182c61;
+    align-content: center;
+    
+}
+section p {
+    margin-bottom: 8px;
+}
+.store-front{
+    margin-right: 32px;
+    
+}
+
+footer{
+    background-color: #1f1041;
+    color:#ecf0f1;
+    padding: 16px; 
+    align-items: center;
+    
+}
+.video{
+    padding: 8px;
+    display: grid;
+    justify-items: center;
+}
